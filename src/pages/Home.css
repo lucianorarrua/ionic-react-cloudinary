@@ -1,0 +1,9 @@
+.backgroundTransparent {
+    background: transparent !important;
+}
+
+img {
+    height:20vh;
+    background-color: transparent;
+    object-fit: cover;
+}

@@ -1,0 +1,36 @@
+.login-content {
+    --background: #fff url('../assets/background.jpg') no-repeat center center / cover;
+}
+
+ion-col:first-child(ion-avatar) {
+    background: #fff;
+    padding: 5;
+}
+
+.logo-app {
+    height: auto;
+    width: 100%;
+    border-color: rgba(0, 0, 0, 0.13);
+    /* border-width: 1.5px; */
+    border-radius: 20px;
+    /* border-style: solid; */
+    --background: rgba(255, 255, 255, 0.480) !important;
+    background: rgba(255, 255, 255, 0.480) !important;
+}
+
+.container-ion-avatar {
+    border-radius: 20px;
+    border-color: #2ecc71;
+    border-style: solid;
+    border-width: 1.5px;
+}
+
+form * {
+    --background: rgba(255, 255, 255, 0);
+}
+
+* .traslucent-gray {
+    --background: rgba(0, 0, 0, 0.38) !important;
+    background: rgba(0, 0, 0, 0.38) !important;
+    border-radius: 20px;
+}
